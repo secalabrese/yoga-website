@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Author: Sarah Calabrese
+     Date: December 9, 2025
+	Index, Poses and Resources pages use inline CSS
+	Index uses embedded.-->
+<head>
+    <meta charset="UTF-8">
+    <title>Beginner Yoga Basics – Home</title>
+    <link rel="stylesheet" href="main.css">
+    <style> /* embedded CSS */
+    .intro-box {
+        background-color: #F6F4F0;
+        border-left: 6px solid #C9693B;
+        border-top: 6px solid #C9693B;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 10px 0 0 0;
+    }
+    .intro-box-end {
+        background-color: #F6F4F0;
+        border-right: 6px solid #C9693B;
+        border-bottom: 6px solid #C9693B;
+        padding: 15px;
+        border-radius: 0 0 10px 0;
+    }
+</style>
+</head>
+<body>
+    <div class="wrapper"><!-- Wrapper uses box model: fixed width, centered page, and interior padding -->
+        <header><!-- Header styled in external CSS for consistent design across pages -->
+            <h1>Beginner Yoga Basics</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="poses.html">Poses</a>
+            <a href="resources.html">Resources</a>
+        </nav>
+        <main class="home-layout"><!-- Home page uses a 2-column flexbox layout -->
+            <div class="home-left"><!-- Left column displays the featured yoga image and audio player -->
+                <div class="intro-image-box">
+                    <img src="SunsetPose.png" alt="Person practicing yoga at sunset" width="400" height="300">
+                </div>
+                <p style="margin-top: 15px; padding: 10px;">
+                    Enjoy this short meditation track while you browse.
+                </p>
+                <audio controls style="width: 100%;"><!-- Audio element includes controls so users can start and stop playback -->
+                    <source src="zengarden.m4a" type="audio/mp4">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="home-right">
+                <div class="intro-box"><!-- intro-box uses embedded CSS -->
+                    <p>Yoga is a gentle and adaptable practice that supports strength, flexibility,
+                    balance, and emotional well-being. Anyone can begin yoga and no prior experience
+                    or special equipment is required. It offers a calm space to reconnect with your 
+                    body and breath, helping you release stress and cultivate mindfulness. Whether 
+                    practiced for physical benefits or emotional grounding, yoga welcomes people of 
+                    all ages and backgrounds.</p>
+                </div>
+                <p style="padding: 20px;"><!-- This paragraph uses inline CSS -->
+                    Beginner Yoga Basics is designed to provide simple, encouraging information for
+                    people who are new to yoga. Explore foundational poses and
+                    discover useful resources to support your journey. This website offers a gentle 
+                    introduction to essential concepts, making it easy to learn at your own pace. 
+                    Our goal is to help you feel confident and supported as you begin your practice.
+                </p>
+                <div class="intro-box-end"><!-- intro-box-end creates a visual closing using border styles -->
+                    <p>Take your time, enjoy the process, and allow yourself to move at a pace that feels
+                    comfortable. Yoga is a lifelong practice, and this website is your starting point.
+                    As you grow, you may find that yoga becomes a meaningful part of your daily routine,
+                    supporting both your physical health and emotional well-being. Remember, every small 
+                    step on the mat is progress.</p>
+                </div>
+            </div>
+        </main>
+		<footer>
+    Created December 9, 2025 | Sarah Calabrese |
+    <a href="mailto:portfolio@example.com" style="color:#F6F4F0;">Email Me</a>
+	<br>
+<small>
+Images from 
+    <a href="https://publicdomainvectors.org" target="_blank" style="color:#F6F4F0;">PublicDomainVectors</a>,
+    <a href="https://unsplash.com" target="_blank" style="color:#F6F4F0;">Unsplash</a>,
+and audio from 
+    <a href="https://stock.adobe.com" target="_blank" style="color:#F6F4F0;">StockAdobe</a>.
+</small>
+</footer>
+    </div> <!-- End Wrapper -->
+</body>
+</html>
